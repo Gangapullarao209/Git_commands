@@ -1,0 +1,37 @@
+>> creating new folder from git bash
+    command: mkdir <Folder_Name>
+
+>> change directory
+    command : cd <Folder_Name>
+
+>> creating new file or opening existing file
+    command: vim <File_name>
+    
+    To save : Escp+ :wq!
+
+>> To see the data present in the file
+    command: cat <File_Name>
+
+______________________________________
+
+>>To initialize Git or creating workspace
+    command: git init
+
+>> To add files from work space to stagging area
+     command: git add <File_Name>
+
+>> To commit files from stagging area to Local repository
+     command: git commit -m "commit message"
+
+-> To send files from Local repo to GitHub repo
+
+>> creating new branch
+     command: git branch -m main
+
+>> creating new origin
+      command: git remote add origin "GitHub Repo URl"
+
+>> Ready to push files into the GitHub Repo
+      command: Git push -u origin main
+
+>> Git status
