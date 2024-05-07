@@ -35,3 +35,23 @@ ______________________________________
       command: Git push -u origin main
 
 >> Git status
+
+>> To check Number of commits
+       command: git log
+       # The git log command shows all the commits that are previously commited, to see only recent 
+         commits we can use anothe command called GIT SHOW
+
+>> To find the difference between work space and stagging area
+        command: git diff <file_Name>
+
+>> To check the difference between staging area and Local Repo
+        command : git diff --staged Head <File_Name>
+
+
+
+
+
+
+
+
+__________________________________________________________________________________________________________
